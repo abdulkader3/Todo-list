@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url(../photo/gojo-satoru-8sz62hlsg1epni6l.jpg);
+    position: relative;
+}
+
+.todoStetas {
+    width: 600px;
+    height: 180px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    -webkit-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+}
+.motivetion{
+    color: #FFF455;
+    font-size: 30px;
+    font-weight: 500;
+}
+.motivetionMore{
+    color: #FFF455;
+}
+.stetasNumber p{
+    color: #FFF455;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.stetasNumber {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.yourTodoListInput {
+    width: 332px;
+    height: 70px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 165px;
+}
+
+.todoInput {
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+
+}
+.todoOUTput{
+    position: absolute;
+    top: 300px;
+}
+
+.todoButton {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+
+.todoButton:hover {
+    background: #000;
+    color: #fff;
+}
+
+.todoButton:hover:active {
+    transform: scale(1.3);
+}
+
+
+.todoOUTputBOX {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.todoOUTputINPUTbox {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.todoOUTputEDITbutton {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+
+.todoOUTputEDITbutton:hover {
+    background: #000;
+    color: #fff;
+}
+
+.todoOUTputEDITbutton:hover:active {
+    transform: scale(1.3);
+}
+
+.todoOUTputDELETEbutton {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+
+.todoOUTputDELETEbutton:hover {
+    background: #000;
+    color: #fff;
+}
+
+.todoOUTputDELETEbutton:hover:active {
+    transform: scale(1.3);
+}
